@@ -9,6 +9,8 @@ I am title
 
 <Layout:overwrite name="MyContent">
 <div>欢迎您：${loginuser.uname }</div>
+
+
 </Layout:overwrite>
 <%-- <Layout:overwrite name="MyScript"></Layout:overwrite> --%>
 <%@ include file="/share/_Layout.jsp"%>

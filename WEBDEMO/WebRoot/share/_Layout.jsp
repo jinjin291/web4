@@ -80,7 +80,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                     <div class="sidebar-toggler hidden-phone" style="margin-bottom: 10px;"></div>
                 </li>
                 <li class="start active">
-                    <a href="./Weclome.jsp">
+                    <a href="Home/index.jsp">
                         <i class="icon-home"></i>
                         <span class="title">首页</span>
                         <span class="selected"></span>
@@ -95,13 +95,13 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                     </a>
                     <ul class="sub-menu">
                         <li id="menupage6_2">
-                            <a href="Goods/GoodsList.jsp?active=menupage6_2">商品列表</a>
+                            <a href="/WEBDEMO/Goods/GoodsList">商品列表</a>
                         </li>
                         <li id="menupage6_0">
                             <a href="CommunicationView/Message.jsp?active=menupage6_0">短消息管理</a>
                         </li>
                         <li id="menupage6_5">
-                            <a href="CommunicationView/Addone.jsp?active=menupage6_5">添加联系人</a>
+                            <a href="Goodsfunction/Addgood.jsp?active=menupage6_5">添加商品</a>
                         </li>  
                     </ul>
                 </li>
